@@ -1,0 +1,36 @@
+/* reset coad start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset coad ends */
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+#posts{
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post{
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 16px 0px rgb(0,0,0,0.2);
+}
+
+.post:hover{
+    background-color: antiquewhite;
+    transition: all 0.4;
+}
+
+
